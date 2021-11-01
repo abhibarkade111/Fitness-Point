@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnessapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessApp"
+        android:usesCleartextTraffic="true" >
+        <activity android:name=".Activity.DietMain"
+            android:exported="true"/>
+        <activity android:name=".Activity.senior"
+            android:exported="true"/>
+        <activity android:name=".Activity.teenagers"
+            android:exported="true"/>
+        <activity android:name=".Activity.adult"
+            android:exported="true"/>
+        <activity android:name=".Activity.diat"
+            android:exported="true"/>
+        <activity android:name=".Activity.Monday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Monday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Tuesday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Tuesday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Wednesday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Wednesday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Thursday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Thursday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Friday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Friday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Saturday"
+            android:exported="true"/>
+        <activity android:name=".Activity.Saturday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.Sunday_45"
+            android:exported="true"/>
+        <activity android:name=".Activity.B18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Btues18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Bwed18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Bthrus18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Bfri18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Bsat18"
+            android:exported="true"/>
+        <activity android:name=".Activity.Bsun18"
+            android:exported="true"/>
+        <activity android:name=".Activity.SundayA"
+            android:exported="true"/>
+        <activity
+            android:name=".Activity.AboveMiddleHome"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MiddleAgeHome"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.BelowEighteenHome"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Streching"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Cardio"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Aerobic"
+            android:exported="true"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.Yoga"
+            android:exported="true"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.SuportAssistant"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.upload_post"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.bmi_calculator"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.update_profile"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.view_profile"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.user_profile"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.signIn"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.signUp"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.profile_details"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.WatchPost"
+            android:exported="true" />
+        <activity android:name=".Activity.ShowDetailActivity" />
+        <activity
+            android:name=".Activity.IntroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
